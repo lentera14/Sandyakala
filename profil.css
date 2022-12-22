@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+	padding: 0;
+	margin: 0;
+	background: #ffffff;
+}
+#nav{
+	font-size: 17px;
+	background-color: #98C1D9;
+}
+.nav-link{
+	color: #3D5A80;
+}
+.nav-link:hover{
+	color: white;
+}
+
+.profil{
+	display: flex;
+	margin: 50px;
+	padding: 10px;
+	height: auto;
+	align-items: center;
+	background-color: white;
+}
+
+.page-footer{
+	background-color: #98C1D9;
+}
+.cr{
+	color: #3D5A80;
+	font-size: 12pt;
+	padding: 25px;
+}

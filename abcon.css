@@ -1,0 +1,249 @@
+/*nav*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+#nav{
+    font-size: 17px;
+    background-color: #98C1D9;
+}
+.nav-link{
+    color: #3D5A80;
+}
+.nav-link:hover{
+    color: white;
+}
+/*slider gambar kereta*/
+.slider .slick-slide {
+    border: solid 1px #000;
+}
+.slider .slick-slide img {
+    width: 100%;
+}
+.slick-prev, .slick-next {
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+.slick-prev {
+    left: 5px;
+}
+.slick-next {
+    right: 5px;
+}
+.slick-prev:before, 
+.slick-next:before {
+    font-size: 40px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.slick-dots {
+    bottom: 15px;
+}
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+    color: #dedede;
+}
+.slider:not(:hover) .slick-arrow,
+.slider:not(:hover) .slick-dots {
+    opacity: 0;
+}
+.slick-arrow,
+.slick-dots {
+    transition: opacity 0.5s ease-out;
+}
+.card-body{
+    background-color: #98C1D9;
+}
+.profil{
+    padding: 40px 0px 40px;
+    background: #FFF;
+    overflow: hidden;
+    position: relative;
+}
+
+.profil .img{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+        }
+.profil .img:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #3D5A80;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    z-index: -1;    
+}
+
+.profil .img img{  
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+}
+.profil:hover .img img{
+    box-shadow: 0 0 0 14px #004aad;
+    transform: scale(1.1);
+}
+.profil .tim-content{
+    margin-bottom: 30px;
+ }
+.profil .title{
+    font-size: 22px;
+    font-weight: 700;
+    color:#4e5052;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.profil .post{
+    display: block;
+    font-size: 15px;
+    color:#4e5052;
+            text-transform: capitalize;
+}
+.profil .sosmed{
+    width: 100%;
+    padding:0;
+    margin:0;
+    background: #004aad;
+    position: absolute;
+    bottom: -100px;
+    left:0;
+    transition: all 0.5 ease 0s;
+}
+.profil:hover .sosmed{
+    bottom:0;
+}
+.profil .sosmed li{
+    display: inline-block;
+}
+.profil .sosmed li a{
+    display: block;
+    padding:10px;
+    font-size: 17px;
+    color:#fff;
+    transition: all 0.3s ease 0s;
+}
+.profil .sosmed li a:hover{
+     color:#98C1D9;
+     background: #004aad;
+     text-decoration: none;
+}   
+.judul{
+      font-size: 50px;
+      font-weight: 700;
+      color:#4e5052;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+      margin-top: 10px;
+      margin-bottom: 15px;
+}
+    
+
+.profil{
+  padding: 40px 0px 40px;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.profil .img{
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 1;
+}
+.profil .img:after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0; 
+  z-index: -1;
+}
+.profil .img img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+    
+.profil:hover .img img{
+  box-shadow: 0 0 0 7px #004aad;
+  transform: scale(1.1);
+}
+
+.profil .tim-content{
+  margin-bottom: 30px;
+}
+.profil .title{
+  font-size: 22px;
+  font-weight: 700;
+  color:#4e5052;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.profil .post{
+  display: block;
+  font-size: 15px;
+  color:#4e5052;
+  text-transform: capitalize;
+ }   
+.us{
+  padding: 4px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.contact{
+  padding-left: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.google-maps {
+position: relative;
+padding-bottom: 75%; /* This is the aspect ratio*/
+height: 0;
+overflow: hidden;
+    
+}
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+.page-footer{
+background-color: #98C1D9;
+}
+.cr{
+color: #3D5A80;
+font-size: 12pt;
+padding: 25px;
+    
+}

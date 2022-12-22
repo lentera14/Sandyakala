@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Marquee Section*/
+.marquee {
+    position: relative;
+    padding: .4em;
+    background-color: #fff;
+    color: #3D5A80;
+}
+
+.marquee .news-container {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: .8em 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.marquee .date-container {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: .8em 0;
+    padding: .8em 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+/* End of Marquee Section */
+
+/* Carousel Section */
+.carousel  {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-item {
+    position: relative;
+    padding: 4rem;
+    background: #fff;
+}
+
+.carousel img {
+    width: 100%;
+    height: 86vh;
+    object-fit: cover;
+}
+/* End of Carousel Section */
+
+/* Heading & Subheading Text */
+.heading-section .subheading {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #3D5A80;
+  letter-spacing: 5px;
+}
+
+.heading-section h2 {
+  font-size: 35px;
+  font-weight: 500;
+  color: #3D5A80;
+}
+
+.heading-section h2 span {
+    font-weight: 400;
+}
+
+@media (max-width: 767.98px) {
+    .heading-section h2 {
+        font-size: 28px;
+    } 
+}
+
+.heading-section h2 {
+  color: #3D5A80;
+}
+
+.heading-section p {
+  color: rgba(255, 255, 255, 0.9); 
+}
+
+/* About Section */
+.about {
+    padding: 50px 10px;
+    color: #3D5A80;
+    background: #fff;
+}
+
+@media (max-width: 765px) {
+  .about {
+    padding: 10px 0px 60px 0px;
+  }
+}
+
+.about .right-text {
+  align-self: center;
+}
+
+.about .right-text p {
+  margin-bottom: 40px;
+}
+
+.about h5 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #3D5A80;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+/* End of About Section */
+
+/* Blog Section */
+.blog {
+  color: #3D5A80;
+  background-color: #fff;
+    padding: 4rem;
+}
+/* End of Blog Section */

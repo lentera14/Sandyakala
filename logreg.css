@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+	padding: 0;
+	margin: 0;
+	background: #ffffff;
+}
+#nav{
+	font-size: 17px;
+	background-color: #98C1D9;
+}
+.nav-link{
+	color: #3D5A80;
+}
+.nav-link:hover{
+	color: white;
+}
+
+.konten{
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	background-image: url("images/sandyakala1.png");
+}
+.container{
+	max-width: 700px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 25px 30px;
+	border-radius: 20px;
+}
+h4, hr, h5{
+	color: white;
+}
+.container form .user{
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+form .user .input{
+	margin: 5px 0 10px 0;
+	width: calc(100% / 2 - 20px);
+}
+.user .input .ket{
+	display: block;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.user .input input{
+	height: 30px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+}
+.user .input textarea{
+	height: 30px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+}
+
+.error{
+	background: #f2dede;
+	color: red;
+}
+
+#syarat{
+	display:none;
+	position: relative;
+}
+#syarat p {
+	font-size: 12px;
+}
+
+.valid {
+	color: green;
+}
+
+.invalid {
+	color: red;
+}
+
+.jk{
+	margin: 5px 0 10px 0;
+	width: 100%;
+}
+.jk .ket{
+	display: block;
+	font-weight: 500;
+	margin-bottom: 5px;	
+}
+form input[type="radio"]{
+	width: 10%;
+}
+
+form .btn-info{
+	color: #3D5A80;
+	background-color: #98C1D9;
+	border-color: #98C1D9;
+	height: 35px;
+	margin-top: 5px;
+}
+form .btn-info:hover{
+	color: white;
+	background-color: #3D5A80;
+}
+
+.page-footer{
+	background-color: #98C1D9;
+}
+.cr{
+	color: #3D5A80;
+	font-size: 12pt;
+	padding: 25px;
+}
+
+
+.container form .login{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+form .login .log{
+	margin: 5px 0 10px 0;
+	width: 100%;
+}
+.login .log .ket{
+	color: white;
+	display: block;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.reg{
+	color: white;
+}
