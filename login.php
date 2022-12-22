@@ -95,7 +95,7 @@
 	<main class="konten">
 		<div class="container">
 			<center>
-				<h4>LOGIN - SANDYAKALA</h4>
+				<h4>LOGIN SANDYAKALA</h4>
 
 				<hr>
 
@@ -127,7 +127,7 @@
 						<div class="log">
 							<p class="reg">Belum Memiliki Akun? <a href="regis.php">Registrasi</a></p>
 							<hr>
-							<p class="reg">Admin Sebagai Admin? <a href="admin/admin.php">Admin</a></p>
+							<p class="reg">Login Sebagai Admin? <a href="admin/admin.php">Admin</a></p>
 						</div>
 					</div>
 				</form>
